@@ -1,0 +1,12 @@
+// custom properties
+:root {
+  // Site color
+  --color-main: red;
+
+  // Base font-family
+  --font: 'Helvetica Neue', arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+    meiryo, sans-serif;
+
+  // Base font-size ％で指定するとブラウザ設定のフォントサイズ切り替えに対応できる
+  --font-size: 62.5%;
+}
