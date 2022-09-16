@@ -24,14 +24,22 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link href="/assets/css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/three@0.140.2/build/three.min.js" defer></script>
-    <script src="/assets/js/script.js" defer></script>
+    <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js" defer></script>
+    <script src="https://unpkg.com/three@0.137.4/examples/js/loaders/GLTFLoader.js" defer></script>
+    <script src="/assets/js/three.js" defer></script>
   </head>
   <body>
-    <header>ヘッダー</header>
-    <main>
+    <header>
       <h1>Three.jsサンプル</h1>
-      <canvas id="js-canvas"></canvas>
+    </header>
+    <main>
+      <div class="app">
+        <canvas id="js-canvas"></canvas>
+        <div class="circleWrap">
+          <div class="circle"></div>
+        </div>
+      </div>
     </main>
-    <footer>フッター</footer>
+    <footer>copyright</footer>
   </body>
 </html>
